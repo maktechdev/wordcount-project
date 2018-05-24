@@ -6,4 +6,4 @@ def home(request):
     return render(request, 'home.html', {'time':dt.today()})
 
 def count(request):
-    return render(request, 'count.html', name='count')
+    return render(request, 'count.html')
